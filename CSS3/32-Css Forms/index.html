@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        input[type=text]{
+            width: 150px;
+            padding: 12px 15px 12px 50px;
+            margin: 8px 0;
+            border: 3px solid red;
+            box-sizing: border-box;
+            border-radius: 8px;
+            color: white;
+            background-image: url('search.png');
+            background-repeat: no-repeat;
+            background-position: 10px 5px;
+        }
+
+        input[type=text]:focus{
+            background-color: darkmagenta;
+            width: 100%;
+        }
+        textarea{
+            width: 100%;
+            height: 160px;
+            border: 3px solid red;
+            resize: none;
+        }
+
+        select{
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid red;
+            border-radius: 5px;
+            background-color: cornsilk;
+        }
+        input[type=button],input[type=reset],input[type=submit]{
+            padding: 16px 25px;
+            background-color: greenyellow;
+            border: none;
+            color: white;
+            margin: 5px 3px;
+            cursor: pointer;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <form >
+        <label for="can">adınızı giriniz</label>
+        <input type="text" name="can" placeholder="Search....">
+
+        <label for="boz">soyadınızı giriniz</label>
+        <input type="text" name="boz">
+
+        <textarea> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloribus quam eum reprehenderit blanditiis commodi, suscipit autem accusamus voluptates, a beatae, nihil omnis? Consequuntur neque dolore ducimus, rerum eum autem, quam nemo voluptatem itaque necessitatibus vel aspernatur possimus temporibus suscipit eos illo in velit animi earum unde obcaecati amet? Repellat, doloribus dolorum molestiae iste quas voluptas quaerat voluptatibus quia aliquam nobis maiores ratione sed voluptatem placeat dolores facere animi ipsam aspernatur non ut mollitia vel. Illo animi omnis, quibusdam quidem aut enim? Sapiente inventore consequatur doloribus voluptatibus facilis aliquid, incidunt assumenda sit maiores cumque quis praesentium? Provident voluptate repellat cum! ipsum dolor sit amet consectetur, adipisicing elit. Aut ullam ad quisquam libero sint id unde, dolore est. Incidunt nihil nobis saepe est, minus nesciunt molestias sint placeat quod, porro, similique eum qui fugiat nisi aliquid voluptatem quidem itaque earum deserunt. Temporibus consectetur officia necessitatibus reiciendis quaerat aliquid, voluptatibus nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quam qui perspiciatis, cum accusamus esse dolore, saepe commodi voluptatem quaerat eveniet ipsum dicta laudantium officiis suscipit obcaecati sapiente. Porro eligendi voluptatum exercitationem et vitae commodi neque possimus odit sequi, sint fuga! Quo laudantium ratione dolores tempore. Cum, iure quas. Maxime.</textarea>
+
+        <select name="ulke=">
+            <option value="tr">Türkiye</option>
+            <option value="fr">Français</option>
+            <option value="en">England</option>
+
+        </select>
+
+        <input type="button" value="button">
+        <input type="reset" value="button">
+        <input type="submit" value="button">
+    </form>
+    
+</body>
+</html>

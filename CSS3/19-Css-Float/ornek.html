@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box; /* border+padding+contend değeri sabit kalır*/
+        }
+        .box{
+            float: left;
+            width: 33.3333%;
+            border: 1px solid red;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .emre{
+            margin-bottom: 10px;
+        }
+        .emre::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <h2>Eşit Kutular</h2>
+
+    <div class="emre">
+        <div class="box" style="background-color: silver;">
+            <p>Yazı</p>
+        </div>
+        <div class="box" style="background-color: silver;">
+            <p>Yazı</p>
+        </div>
+        <div class="box" style="background-color: silver;">
+            <p>Yazı</p>
+        </div>
+    </div>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, ullam? Deleniti eaque sunt ex odit quibusdam dolore explicabo. Recusandae laborum odit magnam saepe, ea nulla libero expedita alias qui omnis in aliquam quasi perspiciatis necessitatibus rerum. Deleniti voluptatibus unde ab odio fugit quam repellat possimus quas dignissimos beatae veritatis, nam alias quae voluptas repellendus reprehenderit aliquam? Debitis, corrupti rerum nulla similique quo eius doloribus sed dolorem labore tempora alias deserunt vero sunt asperiores dolore totam nobis natus quasi! Nobis sit amet totam adipisci eveniet quos atque exercitationem! Ipsam commodi unde a cupiditate. Reprehenderit, veritatis blanditiis? Tempora et voluptate maiores ullam.</p>
+    
+</body>
+</html>

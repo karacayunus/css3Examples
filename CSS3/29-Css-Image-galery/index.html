@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            /* padding + border değeri işleme katılmıyor */
+        }
+
+        .responsive {
+            width: 25%;
+            float: left;
+            padding: 0 6px;
+        }
+
+        div.gallery {
+            float: left;
+            border: 1px solid rgb(185, 50, 50);
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        div.gallery:hover {
+            border: 1px solid black;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+
+        }
+
+        @media only screen and( max-widht : 700px ) {
+            .responsive {
+            width: 50%;
+        }
+
+        }
+
+        @media only screen and (max-widht:500px) {
+            
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="1.jpg">
+                <img src="1.jpg" alt="Yeni 1" width="600" height="400">
+            </a>
+            <div class="desc">
+                Kumsal Resmi
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="2.jpg">
+                <img src="2.jpg" alt="Yeni 2" width="600" height="400">
+            </a>
+            <div class="desc">
+                Şehir Resmi
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="3.jpg">
+                <img src="3.jpg" alt="Yeni 3" width="600" height="400">
+            </a>
+            <div class="desc">
+                Tarla Resmi
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="4.jpg">
+                <img src="4.jpg" alt="Yeni 3" width="600" height="400">
+            </a>
+            <div class="desc">
+                Doğa Resmi
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laudantium, porro, iure, odit eos rem qui
+        nemo maiores culpa optio maxime corrupti. Cumque inventore, at maiores doloremque amet molestias enim provident
+        dolorem ad modi aliquid vitae earum labore beatae illum nostrum, recusandae quis rem molestiae. Est, impedit ea
+        voluptates reiciendis asperiores itaque id cupiditate iste. Quae ea, fugiat aliquid dolorum minima hic dicta
+        soluta quod vel delectus deleniti corrupti natus excepturi illo quisquam laborum. Eum eos optio asperiores
+        aliquid adipisci blanditiis eius iste, exercitationem cumque iure explicabo quis sapiente ad veniam dolorem
+        ipsam. Consequuntur ullam ut rem quisquam sint omnis?</div>
+
+</body>
+
+</html>

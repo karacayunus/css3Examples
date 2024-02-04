@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .div1 {
+            width: 700px;
+            border: 2px solid red;
+            float: right;
+            margin-bottom: 10px;
+        }
+        .div1::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .class1{
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Clear Kullanılmadan</h2>
+    <div class="div1">
+        <img src="1.jpg" alt="" class="class1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nemo voluptatibus rerum animi ipsam
+        doloremque. Nam quia cumque ullam nobis ut aperiam culpa ratione, alias nulla quae rem est qui, saepe repellat
+        incidunt dolores debitis! Saepe totam veniam, voluptatibus voluptatem hic quae eos magni iste sapiente, maxime
+        possimus, aperiam neque!
+    </div>
+
+</body>
+
+</html>
